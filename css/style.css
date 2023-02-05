@@ -25,6 +25,7 @@ input.searche::placeholder {
 .body {
   background-color: #f3f2ef;
   margin-top: 70px;
+  padding: 0 70px 0 70px;
 }
 
 .menutext {
@@ -115,6 +116,8 @@ li {
 
 button.ref {
   color: white;
+  border: none;
+  background-color: #FFFFFF;
 }
 
 button.ref:hover {
@@ -132,6 +135,8 @@ button.ref:hover {
   font-weight: bold;
   font-size: 14px;
   margin-left: 8px;
+  position: relative;
+  top: -15px;
 }
 
 .form-inline{
@@ -209,4 +214,36 @@ button.ref:hover {
 
 .gonderi-tip-ana{
   justify-content: space-around;
+}
+
+.gonderi-header{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-bilgiler{
+  display: flex;
+  flex-direction: column;
+}
+
+span.like-icon {
+  margin: -5px;
+}
+
+.card-footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.foooter{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 4rem;
+  overflow: visible;
+}
+
+.ogelerim{
+  font-size: 13px;
 }
